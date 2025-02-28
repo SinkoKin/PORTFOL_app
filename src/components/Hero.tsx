@@ -44,8 +44,9 @@ const Hero = () => {
             
             <div className="flex flex-wrap gap-4 noon-reveal reveal-4">
               <a
-                href="/resume.pdf"
-                download
+                href="https://drive.google.com/file/d/1zjJ31cReX4HEf8hXVCQoI6_UFExFPkmv/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="custom-button"
               >
                 <Download className="w-5 h-5 mr-2" />

@@ -3,44 +3,19 @@ import { useEffect, useRef } from 'react';
 
 const clientProjects = [
   { 
-    name: "HealthTrack App", 
-    category: "Mobile Application", 
+    name: "Dashboard for Restaurant Stock Management", 
+    category: "Web Application", 
     image: "https://images.unsplash.com/photo-1481487196290-c152efe083f5?auto=format&fit=crop&q=80&w=1800" 
   },
   { 
-    name: "Financial Dashboard", 
-    category: "Web Application", 
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1800" 
-  },
-  { 
-    name: "TravelBuddy Platform", 
-    category: "Web & Mobile", 
+    name: "Mobile and Desktop App for Travel Agency", 
+    category: "Cross-platform Application", 
     image: "https://images.unsplash.com/photo-1476842634003-7dcca8f832de?auto=format&fit=crop&q=80&w=1800" 
   },
   { 
-    name: "SmartHome Control", 
-    category: "IoT Application", 
-    image: "https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?auto=format&fit=crop&q=80&w=1800" 
-  },
-  { 
-    name: "CourseHub LMS", 
-    category: "Education Platform", 
-    image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&q=80&w=1800" 
-  },
-  { 
-    name: "RestaurantPOS System", 
-    category: "Enterprise Software", 
+    name: "AI Bot Script for Client Order Management", 
+    category: "AI Solution", 
     image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&q=80&w=1800" 
-  },
-  { 
-    name: "FitnessPal", 
-    category: "Mobile Application", 
-    image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&q=80&w=1800" 
-  },
-  { 
-    name: "PropertyFinder", 
-    category: "Real Estate Platform", 
-    image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=1800" 
   }
 ];
 
@@ -86,14 +61,14 @@ const ClientProjects = () => {
             Client Work
           </span>
           <h2 ref={headingRef} className="section-heading animate-on-scroll">
-            Portfolio Projects
+            Recent Projects
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto mt-4 animate-on-scroll">
-            A collection of projects I've developed for various clients across different industries.
+            A collection of recent development projects showcasing my technical expertise and problem-solving abilities.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {clientProjects.map((project, index) => (
             <div 
               key={index} 
@@ -105,9 +80,12 @@ const ClientProjects = () => {
                 className="w-full h-full object-cover transition-transform duration-700 ease-in-out group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              <div className="absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <h3 className="text-lg font-semibold">{project.name}</h3>
-                <p className="text-sm opacity-90">{project.category}</p>
+              <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h3 className="text-lg font-semibold text-center mb-2">{project.name}</h3>
+                <p className="text-sm opacity-90 text-center">{project.category}</p>
+                {project.name === "AI Bot Script for Client Order Management" && (
+                  <p className="text-xs mt-2 text-center">Response time: 0.5 seconds</p>
+                )}
               </div>
             </div>
           ))}
