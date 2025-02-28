@@ -1,8 +1,10 @@
 
 import { useState, useEffect } from 'react';
+import { Menu, X } from 'lucide-react';
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -24,8 +26,18 @@ const Header = () => {
         top: offsetPosition,
         behavior: 'smooth'
       });
+      
+      // Close mobile menu after navigation
+      setMobileMenuOpen(false);
     }
   };
+
+  const navItems = [
+    { name: 'Home', id: 'hero' },
+    { name: 'Projects', id: 'projects' },
+    { name: 'Portfolio', id: 'client-projects' },
+    { name: 'Contact', id: 'contact' }
+  ];
 
   return (
     <header 
@@ -42,13 +54,9 @@ const Header = () => {
           </a>
         </div>
         
+        {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-10">
-          {[
-            { name: 'Home', id: 'hero' },
-            { name: 'Projects', id: 'projects' },
-            { name: 'Portfolio', id: 'client-projects' },
-            { name: 'Contact', id: 'contact' }
-          ].map((item) => (
+          {navItems.map((item) => (
             <button
               key={item.id}
               onClick={() => scrollToSection(item.id)}
@@ -59,14 +67,38 @@ const Header = () => {
           ))}
         </nav>
         
+        {/* Mobile Menu Button */}
         <div className="md:hidden">
-          <button className="text-gray-700 hover:text-portfolio-red transition-colors">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
+          <button 
+            className="text-gray-700 hover:text-portfolio-red transition-colors"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
+          >
+            {mobileMenuOpen ? (
+              <X className="w-6 h-6" />
+            ) : (
+              <Menu className="w-6 h-6" />
+            )}
           </button>
         </div>
       </div>
+
+      {/* Mobile Navigation Menu */}
+      {mobileMenuOpen && (
+        <div className="md:hidden bg-white shadow-lg">
+          <div className="px-4 py-5 space-y-4">
+            {navItems.map((item) => (
+              <button
+                key={item.id}
+                onClick={() => scrollToSection(item.id)}
+                className="block w-full text-left px-3 py-2 text-base font-medium text-gray-700 hover:text-portfolio-red hover:bg-gray-50 rounded-md transition-colors"
+              >
+                {item.name}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
     </header>
   );
 };

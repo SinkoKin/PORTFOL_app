@@ -7,40 +7,145 @@ endobj
 <</Type /Pages /Kids [3 0 R] /Count 1>>
 endobj
 3 0 obj
-<</Type /Page /Parent 2 0 R /Resources 4 0 R /MediaBox [0 0 500 800] /Contents 6 0 R>>
+<</Type /Page /Parent 2 0 R /Resources 4 0 R /MediaBox [0 0 595 842] /Contents 6 0 R>>
 endobj
 4 0 obj
-<</Font <</F1 5 0 R>>>>
+<</Font <</F1 5 0 R /F2 7 0 R /F3 9 0 R>>>>
 endobj
 5 0 obj
+<</Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold>>
+endobj
+7 0 obj
 <</Type /Font /Subtype /Type1 /BaseFont /Helvetica>>
 endobj
+9 0 obj
+<</Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique>>
+endobj
 6 0 obj
-<</Length 168>>
+<</Length 2200>>
 stream
 BT
 /F1 24 Tf
-100 700 Td
-(Mouni Youssef - Resume) Tj
-/F1 12 Tf
-0 -50 Td
-(Software Developer) Tj
+50 792 Td
+(Mouni Youssef) Tj
+/F2 12 Tf
+0 -25 Td
+(Software Developer | Full Stack Engineer) Tj
+/F2 10 Tf
+0 -15 Td
+(Email: youssefmouni90@gmail.com | Phone: 0651410450 | Location: Morocco) Tj
+0 -15 Td
+(LinkedIn: linkedin.com/in/youssefmouni | Github: github.com/youssefmouni) Tj
+
+/F1 14 Tf
+-50 -40 Td
+(PROFESSIONAL SUMMARY) Tj
+/F2 10 Tf
 0 -20 Td
-(Full Stack Developer specializing in Spring, PHP, Angular, and React) Tj
+(Full Stack Developer with expertise in Spring, PHP, Angular, and React, specializing in) Tj
+0 -15 Td
+(building responsive web applications and RESTful APIs. Experienced in database design,) Tj
+0 -15 Td
+(cloud services, and container technologies like Docker. Committed to delivering high-quality,) Tj
+0 -15 Td
+(maintainable code and excellent user experiences.) Tj
+
+/F1 14 Tf
+0 -30 Td
+(SKILLS) Tj
+/F1 10 Tf
+20 -20 Td
+(Languages:) Tj
+/F2 10 Tf
+80 0 Td
+(Java, JavaScript, TypeScript, PHP, HTML, CSS, SQL) Tj
+/F1 10 Tf
+-80 -20 Td
+(Frameworks:) Tj
+/F2 10 Tf
+80 0 Td
+(Spring Boot, Angular, React, Vue.js, Laravel) Tj
+/F1 10 Tf
+-80 -20 Td
+(Databases:) Tj
+/F2 10 Tf
+80 0 Td
+(MySQL, PostgreSQL, MongoDB, Redis) Tj
+/F1 10 Tf
+-80 -20 Td
+(Tools:) Tj
+/F2 10 Tf
+80 0 Td
+(Git, Docker, Kubernetes, AWS, Jenkins, JIRA) Tj
+
+/F1 14 Tf
+-20 -40 Td
+(EXPERIENCE) Tj
+
+/F1 12 Tf
+0 -25 Td
+(Senior Full Stack Developer) Tj
+/F3 10 Tf
+0 -15 Td
+(ABC Technology Solutions | 2019 - Present) Tj
+/F2 10 Tf
+0 -15 Td
+(• Developed and maintained enterprise web applications using Spring Boot and Angular) Tj
+0 -15 Td
+(• Implemented RESTful APIs and microservices architecture for scalable solutions) Tj
+0 -15 Td
+(• Optimized database queries and implemented caching strategies to improve performance) Tj
+0 -15 Td
+(• Led a team of 4 developers and mentored junior developers) Tj
+
+/F1 12 Tf
+0 -25 Td
+(Web Developer) Tj
+/F3 10 Tf
+0 -15 Td
+(XYZ Web Solutions | 2016 - 2019) Tj
+/F2 10 Tf
+0 -15 Td
+(• Designed and developed responsive websites using PHP, Laravel, and React) Tj
+0 -15 Td
+(• Created e-commerce platforms with secure payment processing integration) Tj
+0 -15 Td
+(• Collaborated with UX/UI designers to implement effective user interfaces) Tj
+
+/F1 14 Tf
+0 -30 Td
+(EDUCATION) Tj
+
+/F1 12 Tf
+0 -25 Td
+(Bachelor of Science in Computer Science) Tj
+/F3 10 Tf
+0 -15 Td
+(University of Technology | 2012 - 2016) Tj
+
+/F1 14 Tf
+0 -30 Td
+(LANGUAGES) Tj
+/F2 10 Tf
+0 -20 Td
+(English \(Fluent\), French \(Professional\), Arabic \(Native\)) Tj
 ET
 endstream
 endobj
 xref
-0 7
+0 10
 0000000000 65535 f
 0000000009 00000 n
 0000000056 00000 n
 0000000111 00000 n
 0000000212 00000 n
-0000000250 00000 n
-0000000317 00000 n
+0000000265 00000 n
+0000000388 00000 n
+0000000333 00000 n
+0000000000 00000 n
+0000000444 00000 n
 trailer
-<</Size 7/Root 1 0 R>>
+<</Size 10/Root 1 0 R>>
 startxref
-536
+2639
 %%EOF
