@@ -16,16 +16,16 @@ const projectsData = [
     tags: ["React Native", "Redux", "Firebase"]
   },
   {
-    title: "Server and Web & Mobile App for Menara Holding",
-    description: "Full-stack solution for Menara Holding Marrakech with integrated backend services and responsive interfaces.",
-    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=1738",
-    tags: ["Spring Boot", "Angular", "Docker", "MySQL"]
+    title: "Washcar Portfolio",
+    description: "A comprehensive web showcase for a car washing service with booking system and service management.",
+    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&q=80&w=2070",
+    tags: ["React", "Node.js", "MongoDB", "Stripe"]
   },
   {
-    title: "E-commerce Website",
-    description: "A complete e-commerce solution with secure payment processing, inventory management, and user authentication.",
-    image: "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?auto=format&fit=crop&q=80&w=1740",
-    tags: ["PHP", "Laravel", "Vue.js", "MongoDB"]
+    title: "Cafe Restaurant Website",
+    description: "An elegant restaurant website with menu displays, online ordering system, and table reservations.",
+    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=2070",
+    tags: ["Vue.js", "Express", "PostgreSQL", "Tailwind"]
   }
 ];
 
